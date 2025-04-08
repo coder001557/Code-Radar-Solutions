@@ -14,15 +14,15 @@ int main() {
         }
 
         if (lower == 'a' || lower == 'e' || lower == 'i' || lower == 'o' || lower == 'u') {
-            printf("Vowel.\n", ch);
+            printf("Vowel\n", ch);
         } else {
-            printf("Consonant.\n", ch);
+            printf("Consonant\n", ch);
         }
 
     } else if (ch >= '0' && ch <= '9') {
-        printf("Digit.\n", ch);
+        printf("Digit\n", ch);
     } else {
-        printf("Special character.\n", ch);
+        printf("Special character\n", ch);
     }
 
     return 0;
