@@ -3,15 +3,15 @@
 int main() {
     char ch;
 
-    printf("Enter a character: ");
+    printf("");
     scanf(" %c", &ch);
 
     if (ch >= 'A' && ch <= 'Z') {
-        printf("'%c' is an uppercase letter.\n", ch);
+        printf("Uppercase\n", ch);
     } else if (ch >= 'a' && ch <= 'z') {
-        printf("'%c' is a lowercase letter.\n", ch);
+        printf("Lowercase\n", ch);
     } else {
-        printf("'%c' is not an alphabet letter.\n", ch);
+        printf("Not an alphabet letter.\n", ch);
     }
 
     return 0;
