@@ -7,7 +7,7 @@ int main(){
     printf("%d",a);
     printf("%d",b);
     printf("%d",c);
-    if(a*a+b*b=c*c){
+    if(a*a+b*b==c*c){
         printf("Valid");
     }
     else{
